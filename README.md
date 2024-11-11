@@ -2,6 +2,9 @@
 
 [Fabric.js](http://fabricjs.com/) 是一个强大的 JavaScript HTML5 Canvas 库
 
+[Fabric.js 中文文档](https://jiangjiji.github.io/fabricjs-docs-cn/) 基于v6最新版文档翻译。
+
+
 - 文字编辑：画布上的文本编辑，具有富文本、输入法和曲线支持。
 - 复杂路径：导入并绘制由数百个简单路径组成的复杂 SVG 路径。
 - 图像滤镜：WebGL 和 Canvas2d 可定制和可组合的图片滤镜。
