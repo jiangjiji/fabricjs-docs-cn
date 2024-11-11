@@ -15,23 +15,23 @@ export default defineConfig({
     logo: "/favicon.ico",
     nav: [
       { text: "首页", link: "/" },
-      { text: "新版文档", link: "/doc/1. Getting started", activeMatch: "/doc/" },
-      { text: "旧版文档", link: "/old-doc/2. Introduction to Fabric.js Part 1.md", activeMatch: "/old-doc/" },
+      { text: "新版文档", link: "/doc/1_Getting started", activeMatch: "/doc/" },
+      { text: "旧版文档", link: "/old-doc/2_Introduction to Fabric.js Part 1.md", activeMatch: "/old-doc/" },
     ],
 
     sidebar: [
       {
         text: "新版文档",
         items: [
-          { text: "准备开始", link: "/doc/1. Getting started" },
-          { text: "你的第一个app", link: "/doc/2. Your first app" },
+          { text: "准备开始", link: "/doc/1_Getting started" },
+          { text: "你的第一个app", link: "/doc/2_Your first app" },
         ],
       },
       {
         text: "旧版文档",
         items: [
-          { text: "更新记录", link: "/old-doc/1. Changelog" },
-          { text: "1. 介绍Fabric.js ", link: "/old-doc/2. Introduction to Fabric.js Part 1.md" },
+          { text: "更新记录", link: "/old-doc/1_Changelog" },
+          { text: "1. 介绍Fabric.js ", link: "/old-doc/2_Introduction to Fabric.js Part 1.md" },
         ],
       },
     ],

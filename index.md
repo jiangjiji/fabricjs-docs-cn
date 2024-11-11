@@ -9,10 +9,10 @@ hero:
   actions:
     - theme: brand
       text: 新版文档
-      link: /doc/1. Getting Started
+      link: /doc/1_Getting Started
     - theme: alt
       text: 旧版文档
-      link: /old-doc/1. ChangeLog
+      link: /old-doc/1_ChangeLog
 
 features:
   - title: 文字编辑
