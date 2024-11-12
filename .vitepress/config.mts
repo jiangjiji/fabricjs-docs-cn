@@ -28,6 +28,8 @@ export default defineConfig({
           { text: "你的第一个app", link: "/doc/2_Your first app" },
           { text: "配置默认属性", link: "/doc/3_Configuring defaults properties" },
           { text: "配置控制操作", link: "/doc/4_Configuring controls" },
+          { text: "对象和自定义属性", link: "/doc/5_Objects and custom properties" },
+          { text: "核心理念", link: "/doc/6_Core Concepts" },
         ],
       },
       {
