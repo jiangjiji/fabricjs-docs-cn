@@ -25,6 +25,8 @@ export default defineConfig({
         items: [
           { text: "准备开始", link: "/doc/1_Getting started" },
           { text: "你的第一个app", link: "/doc/2_Your first app" },
+          { text: "配置默认属性", link: "/doc/3_Configuring defaults properties" },
+          { text: "配置控制", link: "/doc/4_Configuring controls" },
         ],
       },
       {

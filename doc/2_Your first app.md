@@ -6,7 +6,7 @@ layout: doc
 
 ## 你的第一个基础应用
 
-让我们来看看一个你可以尝试写的最简单App，在浏览器中的```Hello World```例子。
+让我们来看一个可以尝试的最简单App，在浏览器中的```Hello World```例子。
 
 你至少需要导入```StaticCanvas```和```FabricText```类。
 
