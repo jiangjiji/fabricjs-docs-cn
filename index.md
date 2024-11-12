@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: 新版文档
-      link: /doc/1_Getting started
+      link: /doc/0_Introduction to FabricJS
     - theme: alt
       text: 旧版文档
       link: /old-doc/1_Changelog

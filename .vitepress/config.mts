@@ -15,7 +15,7 @@ export default defineConfig({
     logo: "/favicon.ico",
     nav: [
       { text: "首页", link: "/" },
-      { text: "新版文档", link: "/doc/1_Getting started", activeMatch: "/doc/" },
+      { text: "新版文档", link: "/doc/0_Introduction to FabricJS", activeMatch: "/doc/" },
       { text: "旧版文档", link: "/old-doc/2_Introduction to Fabric.js Part 1.md", activeMatch: "/old-doc/" },
     ],
 
@@ -23,6 +23,7 @@ export default defineConfig({
       {
         text: "新版文档",
         items: [
+          { text: "FabricJS 简介", link: "/doc/0_Introduction to FabricJS" },
           { text: "准备开始", link: "/doc/1_Getting started" },
           { text: "你的第一个app", link: "/doc/2_Your first app" },
           { text: "配置默认属性", link: "/doc/3_Configuring defaults properties" },
