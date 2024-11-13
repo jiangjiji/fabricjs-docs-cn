@@ -45,11 +45,11 @@ new FabricText('Hello World!', { fontFamily: 'Arial' }) // Will have Arial font
 这里有一个名为```getDefaults()```的方法。
 该方法会返回一个对象，通过这个对象可以查看实际的默认值。
 
-## 关于Prototype的说明
+## 关于原型的说明
 
 与 FabricJS v5 及更早版本不同，这不会影响已经创建的实例。
 
-JavaScript 类语法不支持在Prototype上使用 FabricJS 之前利用的对象属性。
+JavaScript 类语法不支持在原型上使用 FabricJS 之前利用的对象属性。
 
 如果您真的喜欢旧版本的方法，您仍然可以通过添加一些代码来切换使用。
 
