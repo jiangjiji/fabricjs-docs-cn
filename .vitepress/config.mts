@@ -1,7 +1,8 @@
-import { defineConfig } from 'vitepress';
+import { DefaultTheme, defineConfig, UserConfig } from 'vitepress';
+import { withI18n } from 'vitepress-i18n';
 
 // https://vitepress.dev/reference/site-config
-export default defineConfig({
+const vitePressConfig: UserConfig<DefaultTheme.Config> = {
   title: "FabricJS 中文文档",
   description: "FabricJS 中文文档",
   base: "/fabricjs-docs-cn/",
@@ -51,7 +52,9 @@ export default defineConfig({
     ],
 
     socialLinks: [{ icon: "github", link: "https://github.com/jiangjiji/fabricjs-docs-cn" }],
-
+    editLink: {
+      pattern: "https://github.com/jiangjiji/fabricjs-docs-cn/edit/main/:path",
+    },
     search: {
       provider: "local",
     },
@@ -64,17 +67,13 @@ export default defineConfig({
         timeStyle: "medium",
       },
     },
-
-    // 多语言配置
-    darkModeSwitchLabel: "切换主题",
-    lightModeSwitchTitle: "亮色主题",
-    darkModeSwitchTitle: "暗色主题",
-    sidebarMenuLabel: "目录",
-    returnToTopLabel: "返回顶部",
-    outlineTitle: "页面导航",
-    docFooter: {
-      prev: "上一页",
-      next: "下一页",
-    },
   },
-});
+};
+
+const vitePressI18nConfig = {
+  // VitePress I18n config
+  locales: ["zhHans"],
+  searchProvider: "local" as const, // enable search with auto translation
+};
+
+export default defineConfig(withI18n(vitePressConfig, vitePressI18nConfig));
