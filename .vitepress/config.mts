@@ -30,7 +30,7 @@ export default defineConfig({
           { text: "配置控制操作", link: "/doc/4_Configuring_controls" },
           { text: "对象和自定义属性", link: "/doc/5_Objects_and_custom_properties" },
           { text: "核心概念", link: "/doc/6_Core_Concepts" },
-          { text: "迁移到6.0", link: "/doc/7_Upgrading_to_FabricJS_6.0" },
+          { text: "迁移到6.0", link: "/doc/7_Upgrading_to_FabricJS 6.0" },
           {
             text: "理解 FabricJS", items: [
               { text: "理解 FabricJS", link: "/doc/Understanding_FabricJS/0_Understanding_FabricJS" },
