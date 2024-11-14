@@ -15,8 +15,8 @@ export default defineConfig({
     logo: "/favicon.ico",
     nav: [
       { text: "首页", link: "/" },
-      { text: "新版文档", link: "/doc/0_Introduction to FabricJS", activeMatch: "/doc/" },
-      { text: "旧版文档", link: "/old-doc/2_Introduction to Fabric.js Part 1.md", activeMatch: "/old-doc/" },
+      { text: "新版文档", link: "/doc/0_Introduction_to_FabricJS", activeMatch: "/doc/" },
+      { text: "旧版文档", link: "/old-doc/2_Fabric.js_Part_1", activeMatch: "/old-doc/" },
     ],
 
     sidebar: [
@@ -44,7 +44,7 @@ export default defineConfig({
         text: "旧版文档",
         items: [
           { text: "更新记录", link: "/old-doc/1_Changelog" },
-          { text: "1. 介绍Fabric.js ", link: "/old-doc/2_Introduction to Fabric.js Part 1.md" },
+          { text: "1. 介绍Fabric.js ", link: "/old-doc/2_Fabric.js_Part_1" },
         ],
         collapsed: true,
       },

@@ -12,7 +12,7 @@ hero:
       link: /doc/0_Introduction_to_FabricJS
     - theme: alt
       text: 旧版文档
-      link: /old-doc/1_Changelog
+      link: /old-doc/2_Fabric.js_Part_1
 
 features:
   - title: 文字编辑
