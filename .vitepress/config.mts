@@ -52,6 +52,10 @@ export default defineConfig({
 
     socialLinks: [{ icon: "github", link: "https://github.com/jiangjiji/fabricjs-docs-cn" }],
 
+    search: {
+      provider: "local",
+    },
+
     // 文档配置
     lastUpdated: {
       text: "更新时间",
