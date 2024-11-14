@@ -59,7 +59,7 @@ Fabric 支持以下开箱即用的选择模式：
 - 旋转
 - 调整大小
 - 扭曲
-- 动作变换
+- 偏移
 
 `Control`  API 是专门为创建自定义控制操作和自定义现有控制操作而设计的。
 
@@ -74,7 +74,7 @@ Fabric 支持以下开箱即用的选择模式：
 - `PencilBrush`
 - `SprayBrush`
 
-### 缩放、平移和显示区域交互
+### 缩放、平移和视口交互
 
 Fabric 不支持在画布外进行这些交互。请查看演示。
 
@@ -90,7 +90,7 @@ Fabric 不支持在画布外进行这些交互。请查看演示。
 
 请注意，渲染可能会很耗时，并且可能导致性能下降。
 
-渲染是在父平面上进行的，参见[变换](/doc/Understanding_FabricJS/1_Transformations)。
+渲染是在父平面上进行的，参见[变形](/doc/Understanding_FabricJS/1_Transformations)。
 
 对象需要指定一个画布才能进行正确的渲染（由 Fabric 在底层处理）。
 

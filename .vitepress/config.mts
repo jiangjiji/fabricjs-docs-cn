@@ -34,7 +34,7 @@ export default defineConfig({
           {
             text: "理解 FabricJS", items: [
               { text: "理解 FabricJS", link: "/doc/Understanding_FabricJS/0_Understanding_FabricJS" },
-              { text: "变换", link: "/doc/Understanding_FabricJS/1_Transformations" },
+              { text: "变形", link: "/doc/Understanding_FabricJS/1_Transformations" },
             ],
             collapsed: true,
           }
