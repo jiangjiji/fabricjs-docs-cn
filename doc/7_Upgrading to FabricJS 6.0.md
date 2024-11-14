@@ -96,7 +96,7 @@ class Rect extends FabricObject {
 }
 ```
 
-更改默认值和获取共享控制操作仍然可以通过以下具体说明实现 [配置控制操作](./doc/4_Configuring%20controls)
+更改默认值和获取共享控制操作仍然可以通过以下具体说明实现 [配置控制操作](/doc/4_Configuring_controls)
 
 ## Callbacks vs Promise
 
